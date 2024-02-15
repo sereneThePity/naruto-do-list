@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gamified Todo-List</title>
+</head>
+<body>
+  <header>
+    <h1>Genjutsu</h1>
+  </header>
+  <main>
+    <form action="">
+      <input type="text" autocomplete="off" id="taskInput" placeholder="Enter your mission, genin">
+      <button id="addTaskBtn"></button>
+    </form>
+    <div class="task-list" id="taskList">
+      <!-- Tasks will be dynamically added here -->
+    </div>
+    <div class="progress-bar">
+      <div class="progress" id="progress">
+        <div class="progress-icon"></div>
+      </div>
+      
+      
+    </div>
+    <div class="color-pickers">
+      <div class="color-picker">
+          <span class="color-pick">
+              <input type="color" id="progressColor" value="#db3939">
+          </span>
+        </div>
+      <div class="color-picker second-color-picker">
+        <span class="color-pick">
+            <input type="color" id="progressBarColor" value="#979bf2">
+        </span>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
